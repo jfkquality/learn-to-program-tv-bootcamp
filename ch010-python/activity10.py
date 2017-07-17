@@ -1,5 +1,5 @@
-age = raw_input("How old are you? ")
-print "in 10 years you will be " + age
+age = input("How old are you? ")
+print "in 10 years you will be ",  (age + 10)
 print "In 20 years you will be ", (age + 20)
 print "Half a lifetime ago you were ", (age / 2 )
 if age >= 18:
