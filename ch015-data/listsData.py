@@ -14,7 +14,13 @@ print names
 
 for name in names:
     print name
-    
+
+gpas.append(1.55)
+
+total = 0    
 for score in gpas:
     print score
+    total = total + score
+print "The average GPA is {} (hardcoded)".format(total/5)
+print "The average GPA is ", total/len(gpas)
 
