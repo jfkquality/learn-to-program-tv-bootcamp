@@ -6,6 +6,7 @@
 # - w write,
 # - b binary,
 # - a append
+# This is just to change the file so I can commit it in git
 myFile = open("family.txt", "wb")
 myFile.write("Mark\n")
 myFile.write("Joan\n")
