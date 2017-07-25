@@ -1,4 +1,4 @@
-myFile = open("createCSVFile.csv","wb")
+myFile = open("CSVFile.csv","wb")
 myFile.write("Name,")
 myFile.write("Phone,")
 myFile.write("Email,")
@@ -20,4 +20,3 @@ myFile.write("203-255-4451,")
 myFile.write("jfk@checkmate.digital,")
 myFile.write("Hamden\n")
 myFile.close()
-
