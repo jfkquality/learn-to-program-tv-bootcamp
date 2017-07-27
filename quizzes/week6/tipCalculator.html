@@ -6,21 +6,25 @@
       form {
         width: 200px
       }
+      input, select, button {
+        width: 100%;
+      }
+
     </style>
   </head>
   <body>
-    <label for="billAmt">Billing</label>
-    <input type="text" id="billAmt" name="billAmt" />
-    <label for="tipPct">Tip %</label>
-    <select for="tipPct">
-      <option name="tipPct" value="10">10%</option>
-      <option name="tipPct" value="12.5">12.5%</option>
-      <option name="tipPct" value="15">15%</option>
-      <option name="tipPct" value="17.5">17.5%</option>
-      <option name="tipPct" value="20">20%</option>
-    </select>
-
-
+    <form>
+      <label for="billAmt">Billing</label>
+      <input type="text" id="billAmt" name="billAmt" />
+      <label for="tipPct">Tip %</label>
+      <select for="tipPct">
+        <option name="tipPct" value="10">10%</option>
+        <option name="tipPct" value="12.5">12.5%</option>
+        <option name="tipPct" value="15">15%</option>
+        <option name="tipPct" value="17.5">17.5%</option>
+        <option name="tipPct" value="20">20%</option>
+      </select>
+    </form>
   </body>
 
 </html>
