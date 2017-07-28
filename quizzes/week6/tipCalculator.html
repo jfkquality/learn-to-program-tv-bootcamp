@@ -9,22 +9,28 @@
       input, select, button {
         width: 100%;
       }
+      .container {
+        width: 200 px
+      }
 
     </style>
   </head>
   <body>
-    <form>
-      <label for="billAmt">Billing</label>
-      <input type="text" id="billAmt" name="billAmt" />
-      <label for="tipPct">Tip %</label>
-      <select for="tipPct">
-        <option name="tipPct" value="10">10%</option>
-        <option name="tipPct" value="12.5">12.5%</option>
-        <option name="tipPct" value="15">15%</option>
-        <option name="tipPct" value="17.5">17.5%</option>
-        <option name="tipPct" value="20">20%</option>
-      </select>
-    </form>
+    <div class="container">
+      <form>
+        <label for="billAmt">Billing</label>
+        <input type="text" id="billAmt" name="billAmt" />
+        <label for="tipPct">Tip %</label>
+        <select for="tipPct">
+          <option name="tipPct" value="10">10%</option>
+          <option name="tipPct" value="12.5">12.5%</option>
+          <option name="tipPct" value="15">15%</option>
+          <option name="tipPct" value="17.5">17.5%</option>
+          <option name="tipPct" value="20">20%</option>
+        </select>
+      </form>
+      <p>Bill</p>
+    </div> <!-- container -->
   </body>
 
 </html>
