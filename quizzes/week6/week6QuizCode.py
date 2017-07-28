@@ -10,10 +10,14 @@ def range (num1, num2, step):
             print x
             x = x - step
 
-# Problem 7B
+# Problem 7A
+print "Problem 7A"
+print ""
 range(0, 100, 5)
 
 # Problem 7B
+print "Problem 7B"
+print ""
 range(1000, 950, 1)
 
 # Problem 7C

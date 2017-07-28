@@ -10,7 +10,12 @@
         width: 100%;
       }
       .container {
-        width: 200 px
+        width: 200px;
+        height: 500px;
+        border-top: : 2px solid lightgrey;
+        border-right  : 2px solid lightgrey;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black
       }
 
     </style>
@@ -18,7 +23,7 @@
   <body>
     <div class="container">
       <form>
-        <label for="billAmt">Billing</label>
+        <label for="billAmt">Bill</label>
         <input type="text" id="billAmt" name="billAmt" />
         <label for="tipPct">Tip %</label>
         <select for="tipPct">
@@ -29,7 +34,9 @@
           <option name="tipPct" value="20">20%</option>
         </select>
       </form>
-      <p>Bill</p>
+      <p>Tip Amount: </p>
+      <p>Amount Owed: </p>
+      <button id="calcTip">Calculate Tip </button>
     </div> <!-- container -->
   </body>
 
